@@ -51,8 +51,8 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+  gem "less-rails-bootstrap"
 
 group :development, :test do
-  gem "less-rails-bootstrap"
   gem "therubyracer", platforms: :ruby
 end
