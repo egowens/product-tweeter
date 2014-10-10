@@ -1,4 +1,4 @@
-class Shops < ActiveRecord::Base
+class Shop < ActiveRecord::Base
 
   def self.store(session)
     shop = Shop.new(domain: session.url, token: session.token)
